@@ -47,11 +47,18 @@ Walk me through Lambda's git flow.
 
 Stretch Questions
 
-What is the difference between an inline element and a block element? Inline elements are on the same line as other elements, they do not push other elements away and they do not take width and height properties.
-     Box elements are contained within borders, padding and margins. They extend their width to fill 100% of the container if no width property is applied. 
-What happens when an element is positioned absolutely? An element is removed from the flow when absolutely positioned; it is ignored by other elements. 
+What is the difference between an inline element and a block element? Inline elements are on the same line 
+as other elements, they do not push other elements away and they do not take width and height properties.
+     Box elements are contained within borders, padding and margins. They extend their width to fill 100% of the 
+     container if no width property is applied. 
+What happens when an element is positioned absolutely? 
+    An element is removed from the flow when absolutely positioned; it is ignored by other elements. 
 How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+Name 3 elements that are display block by default, `<div>, <h1> and <li>`
+    2 elements that are display inline by default and `<span> and <a>`
+    1 element that is display inline-block by default. `<img>`
+
+
 In your own words, explain the box model. What is the fix for the box model? 
     The box model is used by CSS to design and layout html content. Margin, borders, padding and (actual) content boxes are manipulated; all of which are centered around the content by default.
     Every HTML element has an invisible box around it to start with. The alternative box model is achieved by using the following element selectors 
